@@ -1,7 +1,7 @@
 ---
 title: "Hello Jenkins"
-date: 2021-07-01T11:26:51+08:00
-lastmod: 2020-07-08T14:52:31+08:00
+date: 2021-07-14T17:16:46+08:00
+lastmod: 2021-07-16T15:03:57+08:00
 draft: true
 author: "ssfzxc"
 description: "安装 Jenkins 时的一些笔记"
@@ -9,7 +9,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["Jenkins", "CI/CD", "运维"]
+tags: ["Jenkins", "运维"]
 categories: ["Jenkins"]
 
 lightgallery: true
@@ -49,8 +49,8 @@ lightgallery: true
 
   - FreeStyle: 脚本最前面新增 BUILD_ID
 
-  ```sh
-  BUILD_ID=donotKillMe
-  echo 'hello'
-  ```
+    ```sh
+    BUILD_ID=donotKillMe
+    echo 'hello'
+    ```
 

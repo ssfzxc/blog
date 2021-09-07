@@ -1,7 +1,7 @@
 ---
 title: "Hello ArchLinux"
-date: 2021-07-01T11:26:51+08:00
-lastmod: 2020-07-08T14:52:31+08:00
+date: 2021-07-14T17:16:46+08:00
+lastmod: 2021-08-02T14:17:00+08:00
 draft: true
 author: "ssfzxc"
 description: "安装ArchLinux"
@@ -9,7 +9,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["archliux", "linux"]
+tags: ["运维", "linux"]
 categories: ["linux"]
 
 lightgallery: true
@@ -67,4 +67,16 @@ lightgallery: true
   pacman-key --populate archlinux
   pacman-key --populate archlinuxcn
   ```
+
+## 折腾AwesomeWM
+
+- awesome 使用 `sudo pacman -S awesome-git`, 特性更为全面
+
+- 锁屏工具 `i3clock`
+
+- 窗口合成器, 实现半透明等等功能 `picom`
+
+- 全局应用搜索 `rofi`
+
+- terminal `kitty || alacritty`
 
